@@ -1,0 +1,195 @@
+@media screen and (max-width: 768px) {
+  header h1,
+  p {
+    text-align: center;
+  }
+
+  nav {
+    display: none;
+  }
+
+  section {
+    border-left: 2px solid var(--color-azul);
+    border-right: 2px solid var(--color-azul);
+    width: 95%;
+  }
+
+  #introducao {
+    padding: 0.2rem 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+  }
+
+  #introducao p {
+    font-size: 0.8rem;
+  }
+
+  #curriculo article {
+    padding: 0.8rem 0.6rem;
+  }
+
+  #curriculo article p {
+    font-size: 0.8rem;
+  }
+
+  #curriculo article span {
+    font-size: 0.8rem;
+  }
+
+  #projetos {
+    display: flex;
+  }
+
+  #projetos h2 {
+    padding-bottom: 0;
+  }
+
+  #projetos article {
+    width: 85%;
+    height: auto;
+    padding-bottom: 0;
+    padding-top: 1rem;
+  }
+
+  #projetos article img {
+    width: 85px;
+  }
+
+  #projetos article h4 {
+    font-size: 1rem;
+  }
+
+  #projetos article p {
+    font-size: 0.8rem;
+  }
+
+  #projetos article span {
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 0.4rem;
+  }
+
+  #projetos article a {
+    font-size: 0.8rem;
+  }
+
+  #depoimentos article {
+    width: 85%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 0.4rem;
+    border: 2px solid var(--color-laranja);
+  }
+
+  #depoimentos article img {
+    width: 35%;
+  }
+
+  #depoimentos article h5 {
+    padding: 0.8rem 0;
+    font-size: 1rem;
+  }
+
+  #depoimentos article span {
+    padding: 0;
+    padding-bottom: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  #depoimentos article p {
+    text-align: center;
+    padding: 0 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  #publicacoes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #publicacoes article {
+    width: 85%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  #publicacoes article:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  #publicacoes h2 {
+    margin-bottom: 1.6rem;
+    padding-bottom: 0;
+  }
+
+  #publicacoes h3 {
+    font-size: 1rem;
+  }
+
+  #publicacoes p {
+    font-size: 0.8rem;
+  }
+
+  #publicacoes a {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+
+  #contato form {
+    width: 90%;
+    padding: 1.6rem 0.8rem;
+    border: transparent;
+  }
+
+  #contato form input {
+    padding: 0.4rem 0.2rem 0.4rem 1.8rem;
+  }
+
+  #contato form input,
+  textarea {
+    font-size: 0.8rem;
+  }
+
+  #contato form button {
+    font-size: 0.9rem;
+    width: 80%;
+    margin-top: 0.6rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+  footer #about {
+    display: none;
+  }
+
+  footer #links-rodape {
+    display: none;
+  }
+
+  footer #redes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1.8rem;
+    padding-top: 1rem;
+  }
+
+  footer #redes h3 {
+    margin: 0 0 0.6rem 0;
+  }
+}
