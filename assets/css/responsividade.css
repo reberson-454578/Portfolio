@@ -103,10 +103,12 @@
     font-size: 1rem;
   }
 
-  #depoimentos article span {
+  #depoimentos .artigo-depoimentos span {
     padding: 0;
     padding-bottom: 0.4rem;
     font-size: 0.9rem;
+    align-self: center;
+    margin: 0;
   }
 
   #depoimentos article p {
